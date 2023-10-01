@@ -28,7 +28,6 @@ namespace SubRedditMonitor.Application
 
             Interval = int.Parse(Configuration["Interval"] ?? "5000");
 
-
             using (var scope = host.Services.CreateScope())
             {
                 var provider = scope.ServiceProvider;

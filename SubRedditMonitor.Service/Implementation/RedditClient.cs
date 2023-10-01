@@ -43,8 +43,6 @@
                 {
                     throw new HttpRequestException(response.ToString());
                 }
-
-                return null;
             }
         }
 
